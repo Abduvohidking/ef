@@ -8,7 +8,6 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 import uz.authorizationapp.entity.template.ConfigEntity;
 
-import java.util.UUID;
 
 @EqualsAndHashCode(callSuper = true)
 @Data

@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>authorization-app</artifactId>
+    <artifactId>authorization-app-shoha</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>authorization-app</name>
     <description>Demo project for Spring Boot</description>
@@ -23,6 +23,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.httpcomponents.client5</groupId>
+            <artifactId>httpclient5</artifactId>
+            <scope>test</scope>
         </dependency>
 
         <dependency>

@@ -13,7 +13,6 @@ import uz.authorizationapp.upload.LoginDto;
 import uz.authorizationapp.upload.RegisterDto;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:8080")
 @RequestMapping("/api/auth")
 public class AuthController {
 
